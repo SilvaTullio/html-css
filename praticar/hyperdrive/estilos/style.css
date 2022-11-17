@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 /* Degrade: Cor01 #212E46 cor02 #1E293E cor03 #171B27 */
+/* 0 ~ 575px (sem media querie) */
 
 * {
   padding: 0px;
