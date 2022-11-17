@@ -1,14 +1,15 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
-/* Degrade: Cor01 #212E46 cor02 #1E293E cor03 #171B27 */
-/* 0 ~ 575px (sem media querie) */
+/* Degrade: Cor00 #2069DA Cor01 #212E46 cor02 #1E293E cor03 #171B27 */
+/* iPhone SE (sem media querie) */
 
 * {
   padding: 0px;
   margin: 0px;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
+  max-width: 100vw;
 }
 header > h1 > strong {
   color: #616977;
@@ -36,7 +37,7 @@ main > img {
   left: 49%;
   top: 50%;
   position: relative;
-  margin-left: -40px;
+  margin-left: -50px;
   margin-top: 20px;
   animation: go-back 2.2s infinite alternate;
 }
@@ -58,53 +59,95 @@ main > h2 {
   padding-bottom: 10px;
 }
 main > p {
-  color: rgba(255, 255, 255, 0.637);
-  font-size: 1.4em;
-  width: 390px;
-  padding-left: 8vw;
+  position: relative;
+  z-index: 1;
+  display: block;
+  max-width: 600px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  color: hsla(0, 0%, 100%, 0.74);
+  font-size: 21px;
+  line-height: 36px;
+  font-weight: 300;
   text-align: center;
 }
 .button {
-  transform: translateX(100px);
+  transform: translateX(50px);
   text-align: center;
-  margin-top: 30px;
+  margin-top: 96px;
+  margin-bottom: -19px;
   border-radius: 40px;
   padding: 10px;
   width: 250px;
   background-color: white;
   font-size: 1.5em;
 }
+.button > a{
+  text-decoration: none;
+}
 .button:hover {
   text-decoration: none;
   transition: transform 0.3s;
-  transform: translate(100px) translateY(-5px);
+  /* OFF transform: translate(100px) translateY(-5px); */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
 }
+/*First part */
+/* Second Part */
 article > img {
   max-width: 100vw;
 }
-.text{
-    background-color: white;
+.text {
+  background-color: white;
 }
-.text > h2{
-    padding-top: 50px;
-    font-size: 2.4em;
-    text-align: center;
+.text > h2 {
+  margin-top: -10px;
+  padding-top: 50px;
+  font-size: 2.4em;
+  text-align: center;
 }
-.text > p{
-    text-align: center;
-    padding-bottom: 50px;
+.text > p {
+  text-align: center;
+  padding-bottom: 50px;
 }
-aside{
-    padding-top: 40px;
-    background-image: linear-gradient(#171B27, #1E293E);
+aside {
+  padding-top: 40px;
+  background-image: linear-gradient(#171b27, #1e293e);
 }
-aside > h2{
-    color: white;
-    text-align: center;
-    font-size: 2.4em;
+aside > h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.4em;
 }
 aside > P {
-    color: rgba(255, 255, 255, 0.671);
-    text-align: center;
+  color: rgba(255, 255, 255, 0.671);
+  text-align: center;
+}
+
+.signature > a > img {
+  margin-top: 30px;
+  width: 300px;
+  transform: translateX(40px);
+  background-color: #212e46;
+}
+/* Second Part */
+/* Final */
+.button2 {
+  background-color: #2069DA;
+  color: white;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  width: 70vw;
+}
+.button2 > a {
+  color: white;
+  text-decoration: none;
+}
+.farewell{
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.397);
+  text-align: center;
+  font-size: 0.8em;
+  padding-bottom: 40px;
 }
