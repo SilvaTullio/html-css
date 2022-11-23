@@ -2,14 +2,27 @@
 
 /* iPhone XR */
 @media screen and (min-width: 376px) and (max-width: 415px) {
+  hr {
+    margin-bottom: 100px;
+  }
 
   .button {
     transform: translateX(25%);
+    margin-bottom: 215px;
   }
   .signature > a > img {
     transform: translateX(19%);
   }
-  main > .espaco {
-    margin-top: 347px;
+
+  .farewell {
+    padding-bottom: 5px;
+  }
+}
+/*iPhone 12 pro */
+@media screen and (min-width: 390px) and (max-width: 852px) {
+  article > img {
+    margin-top: -91px;
+  }
+  .signature > a > img {
   }
 }
