@@ -83,7 +83,7 @@ article {
 .secondblock,
 .thirdblock {
   background-color: white;
-  height: 70vh;
+  padding-bottom: 2em;
   text-align: center;
 }
 .firstblock > h2 {
@@ -104,18 +104,17 @@ article {
 }
 /* P A R T 3 */
 article > .aboutUs {
-  padding-top: 100px;
+  padding-top: 5em;
   margin-top: 40px;
   height: 50vh;
 }
 .aboutUs {
   color: white;
   text-align: center;
-  
 }
 .aboutUs > h2 {
   font-size: 2em;
-  padding-bottom: 2.5em;
+  padding-bottom: 1.5em;
 }
 .aboutUs > p {
   font-size: 1.2em;
