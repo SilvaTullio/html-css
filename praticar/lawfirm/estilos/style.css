@@ -1,8 +1,8 @@
 @charset "utf-8";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   margin: 0px;
   padding: 0px;
@@ -36,7 +36,7 @@ html {
   animation: go-back 2.2s infinite alternate;
   border-radius: 1000px;
   display: block;
-  padding-top: 120px;
+  padding-top: 90px;
   margin: auto;
   max-width: 120px;
 }
@@ -49,13 +49,13 @@ html {
     transform: translateY(0);
   }
 }
-.apresentacao h2 {
-  font-size: 2.2em;
+.apresentacao h1 {
+  font-size: 3.2em;
   padding-top: 80px;
   text-align: center;
 }
 .apresentacao p {
-  font-size: 1.2em;
+  font-size: 1.8em;
   padding-top: 20px;
   padding-bottom: 80px;
   max-width: 99%;
@@ -87,17 +87,20 @@ article {
   text-align: center;
 }
 .firstblock > h2 {
+  padding-top: 0.7em;
   font-size: 1.8em;
-  padding-bottom: 25px;
+  padding-bottom: 0.9em;
 }
 
 .secondblock > h2 {
+  padding-top: 0.7em;
   font-size: 1.8em;
-  padding-bottom: 25px;
+  padding-bottom: 0.9em;
 }
 .thirdblock > h2 {
+  padding-top: 0.7em;
   font-size: 1.8em;
-  padding-bottom: 25px;
+  padding-bottom: 0.9em;
 }
 /* P A R T 3 */
 article > .aboutUs {
@@ -108,10 +111,11 @@ article > .aboutUs {
 .aboutUs {
   color: white;
   text-align: center;
+  
 }
 .aboutUs > h2 {
   font-size: 2em;
-  padding-bottom: 70px;
+  padding-bottom: 2.5em;
 }
 .aboutUs > p {
   font-size: 1.2em;
