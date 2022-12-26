@@ -3,6 +3,145 @@
 
 * {
   font-family: "Open Sans", sans-serif;
-  padding: 0px;
+  font-weight: lighter;
   margin: 0px;
+  padding: 0px;
+  width: 100vw;
+}
+/* header */
+header > nav {
+  color: rgba(255, 255, 255, 0.301);
+  padding-top: 40px;
+  text-align: center;
+}
+header > nav > h1 > strong {
+  font-weight: bolder;
+}
+header > hr {
+  margin: auto;
+  width: 80%;
+}
+/* corpo */
+body,
+html {
+  background-image: linear-gradient(#212e46, #1e293e, #171b27);
+  height: 280vh;
+}
+/* P A R T 1 */
+.apresentacao {
+  height: 100vh;
+  color: white;
+}
+.apresentacao > img {
+  animation: go-back 2.2s infinite alternate;
+  border-radius: 1000px;
+  display: block;
+  padding-top: 120px;
+  margin: auto;
+  max-width: 120px;
+}
+/*animation */
+@keyframes go-back {
+  from {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.apresentacao h2 {
+  font-size: 2.2em;
+  padding-top: 80px;
+  text-align: center;
+}
+.apresentacao p {
+  font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  max-width: 99%;
+  text-align: center;
+}
+/* button */
+.apresentacao > button {
+  background-color: white;
+  border-radius: 300px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+  display: block;
+  height: 60px;
+  margin: auto;
+  width: 230px;
+}
+.apresentacao > button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+  transition: transform 0.3s;
+}
+/* P A R T 2 */
+article {
+  margin-top: -96px;
+}
+.firstblock,
+.secondblock,
+.thirdblock {
+  background-color: white;
+  height: 70vh;
+  text-align: center;
+}
+.firstblock > h2 {
+  font-size: 1.8em;
+  padding-bottom: 25px;
+}
+
+.secondblock > h2 {
+  font-size: 1.8em;
+  padding-bottom: 25px;
+}
+.thirdblock > h2 {
+  font-size: 1.8em;
+  padding-bottom: 25px;
+}
+/* P A R T 3 */
+article > .aboutUs {
+  padding-top: 100px;
+  margin-top: 40px;
+  height: 50vh;
+}
+.aboutUs {
+  color: white;
+  text-align: center;
+}
+.aboutUs > h2 {
+  font-size: 2em;
+  padding-bottom: 70px;
+}
+.aboutUs > p {
+  font-size: 1.2em;
+  max-width: 99%;
+}
+.signatures > a > img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+}
+.button2 > button {
+  color: white;
+  background-color: #2069da;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+  display: block;
+  font-size: 1.4em;
+  height: 90px;
+  margin: auto;
+  width: 350px;
+}
+/* L A S T P A R T */
+.farewell {
+  color: rgba(255, 255, 255, 0.397);
+  font-size: 0.8em;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+.farewell > button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+  transition: transform 0.3s;
 }
